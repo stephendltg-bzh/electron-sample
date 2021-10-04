@@ -3,10 +3,10 @@
     For a guide and recipes on how to configure / customize this project,<br>
     check out the
     <a
-      href="https://github.com/cawa-93/vite-electron-builder"
+      href="https://github.com/stephendltg-bzh/electron-sample"
       rel="noopener"
       target="_blank"
-    >vite-electron-builder documentation</a>.
+    >electron-sample documentation</a>.
   </p>
 
   <p>
