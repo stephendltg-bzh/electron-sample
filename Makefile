@@ -15,8 +15,8 @@ install-rasp:
 
 clean:
 	@echo "Clean project ${PROJECT}..."
-  rm -rf ./dist
 	rm -rf ./node_modules
+	rm -rf ./dist
 
 nvm:
 	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/${NVM}/install.sh | bash
