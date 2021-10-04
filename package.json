@@ -1,5 +1,7 @@
 {
   "name": "redon-bzh",
+  "version": "1.0.0",
+  "description": "App for redon bzh",
   "private": true,
   "engines": {
     "node": ">=v14.16",
@@ -11,6 +13,7 @@
     "build": "node scripts/build.js",
     "precompile": "cross-env MODE=production npm run build",
     "compile": "electron-builder build --config electron-builder.config.js --dir --config.asar=false",
+    "package:linux": "electron-builder --prepackaged ./dist/linux-unpacked --linux",
     "pretest": "npm run build",
     "test": "node tests/app.spec.js",
     "watch": "node scripts/watch.js",
